@@ -1,4 +1,5 @@
 '''The area of an isosceles right triangle'''
+#
 def get_s_triangle(side) -> float:
     s = 1 / 2 * side ** 2
     return s
