@@ -1,7 +1,8 @@
-# Imported modules
+# Imported functions
 from geometry10.square import get_s_triangle, get_s_rectangle
 from geometry10.volume import get_v_cone, get_v_sphere
 
+# Created the class
 class Geometry:
     def __init__(self, s_triangle, s_rectangle, v_cone, v_sphere):
         self.s_triangle = s_triangle
